@@ -18,8 +18,8 @@ int main() {
 
     while(getline(ifile, file_text)) {
         std::cout << file_text << std::endl;
-    };
-
+    }
+    
     ifile.close();
 
     return 0;
